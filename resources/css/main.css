@@ -1,0 +1,150 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+header
+{
+    background-image: url('../images/background.jpg');
+    height:110vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    /*background-repeat: no-repeat;*/
+}
+.main-nav
+{
+    float:right;
+    list-style: none;
+    margin-top: 30px;
+}
+.main-nav li
+{
+    display: inline-block;
+    box-sizing: border-box;
+}
+.main-nav li a
+{
+    color: gray;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto",sans-serif;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+.main-nav li.active a
+{
+    border: 1px solid gray;
+}
+
+.main-nav li a:hover
+{
+    border: 1px solid gray;
+}
+
+body
+{
+    font-family: monospace;
+}
+
+.text
+{
+    position: absolute;
+    margin-top: 275px;
+    width: 100%;
+    font-size: 50px;
+    line-height: 1.2;
+
+}
+
+h1
+{
+    color: lightgray;
+    text-transform: uppercase;
+    text-align:center;
+    transform: translateY(-110vh);
+
+
+}
+
+
+.button
+{
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 41vw;
+    transform: translateY(-110vh);
+}
+
+.btn
+{
+    border: 1px solid gray;
+    padding: 10px 30px;
+    color: gray;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 13px;
+    text-transform: uppercase;
+
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        background-color: lightcoral;
+    }
+
+    header h1 {
+        font-size: 30px;
+    }
+
+    .main-nav{
+        display: flex;
+        width: 100%;
+    }
+
+    .main-nav>li {
+        box-sizing: border-box;
+    }
+
+    .main-nav>li>a {
+        display: block;
+        padding: 10px;
+    }
+
+    .text{
+        width: 5;
+        height: 50%;
+    }
+
+    .button {
+        margin: 5px 0;
+        position: relative;
+    }
+
+    .btn {
+        text-align: center;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 75%;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+
+    header{
+        background-color: lightblue;
+    }
+
+    header h1 {
+        font-size: 80px;
+    }
+
+    .main-nav>li>a{
+        font-size:30px;
+    }
+
+    .btn{
+        font-size: 20px;
+    }
+}

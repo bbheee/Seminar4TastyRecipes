@@ -1,0 +1,59 @@
+{
+    margin:center;
+    padding:0;
+}
+body
+{
+    font-family: monospace;
+}
+nav div{
+    width: 50%;
+    float: right;
+    list-style: none;
+
+
+}
+.login
+{
+   position: absolute;
+   top: 100px;
+   right: 10em;
+   width: 100px;   color: gray;
+   padding: 5px 20px;
+   font-size: 30px;
+   line-height: 1.2;
+   font-family: "Roboto",sans-serif;
+}
+
+.login a{
+    font-family: "Roboto",sans-serif;
+    font-size: 16px;
+    color: gray;
+    text-decoration:underline;
+    position: absolute;
+    margin: 15px 90px;
+    width: 80%;
+
+}
+.login h2{
+    font-size: 18px;
+    padding-bottom: 10px;
+    position: relative;
+    margin: 0 95px;
+    width: 80%;
+
+}
+.login form input {
+    width: 250px;
+    height: 30px;
+    padding: 0px 5%;
+    font-size: 12px;
+    line-height: 63px;}
+
+.login button{
+    font-size: 15px;
+    /*display: block;*/
+    margin: 0 95px;
+    width: 80%;
+    height: 25px;
+}

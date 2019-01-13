@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cookbook xmlns="http://www.mycookbook-android.com"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://www.mycookbook-android.com ./mycookbook.xsd"
+          version="46">
+
+    <recipe>
+        <title>Pancakes</title>
+        <imagepath>resources/images/pannkakor.jpg</imagepath>
+        <quantity>3–4 portions</quantity>
+        <cooktime>Cooktime: 20 min</cooktime>
+        <ingredient>
+            <li>3 eggs</li>
+            <li>5 dl milk</li>
+            <li>5 dl of wheat flour</li>
+            <li>2 tsk baking powder</li>
+            <li>1 tsk salt</li>
+            <li>1 msk sugar</li>
+        </ingredient>
+        <recipetext>
+            <li>Crack the eggs and divide the yolks and whites. Whisk the egg yolks with the milk.</li>
+            <li>Mix all the dry ingredients and sift them in egg and milk mixture. Beat until smooth.</li>
+            <li>Hard-wipe the egg whites and gently turn into the batter. Let swell for half an hour.</li>
+            <li>Fry the pancakes of about 10-12 cm in diameter on a low heat until they become thick and airy.</li>
+            <li>Serve with fresh berries and maple syrup. Sprinkle with a bit sugar if you want.</li>
+        </recipetext>
+    </recipe>
+
+    <recipe>
+        <title>Meatballs</title>
+        <imagepath>resources/images/kottbullar.jpg</imagepath>
+        <quantity>4 portions</quantity>
+        <cooktime>Cooktime: 1 hour</cooktime>
+        <ingredient>
+            <li>1/2 dl breadcrumbs</li>
+            <li>1 dl cream</li>
+            <li>1/2 kg minced beef</li>
+            <li>2 msk chopped onion</li>
+            <li>1 egg</li>
+            <li>1 tsk salt</li>
+            <li>1 krm pepper</li>
+            <li>1 tsk ground nutmeg</li>
+            <li>butter</li>
+        </ingredient>
+        <recipetext>
+            <li>Mix bread and cream. Let swell.</li>
+            <li>Add the mince beef, onion, eggs, salt, pepper and nutmeg and stir until smooth.</li>
+            <li>Roll into small buns, the smaller the better, and fry in butter.</li>
+            <li>Serve with mashed potatoes, lingon sauce and possibly cream sauce.</li>
+        </recipetext>
+    </recipe>
+
+</cookbook>
