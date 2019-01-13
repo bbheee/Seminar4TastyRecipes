@@ -1,4 +1,6 @@
 <?php
+namespace View;
+
 use Tasty\Util\Startup;
 use Tasty\Controller\SessionManager;
 $this_directory = __DIR__;
